@@ -6,7 +6,7 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
-markdown: rdiscount
+markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
@@ -31,7 +31,7 @@ author :
   googleplus : https://plus.google.com/u/0/117948489344923615869/
   feedburner : feedname
   description: lofei's blog
-  aboutme: "hello, I'm lofei" 
+  aboutme: "hello, I'm lofei, a normal guy who likes cooking, travelling by bike, and also reading books. If you like to make friend with me, contact me with below contacts." 
   avatarurl: https://0.gravatar.com/avatar/bb1638d85a52d1412088330c9f348683?size=200
 
 # The production_url is only used when full-domain names are needed
