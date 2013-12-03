@@ -1,0 +1,14 @@
+---
+author: lofei117
+comments: true
+date: 2013-03-31 15:30:42+00:00
+layout: post
+slug: code-rot
+title: 代码腐烂
+wordpress_id: 530
+categories:
+- MyRainmeter
+- 设计模式
+---
+
+唉，头疼。先码个头吧，改天得认真写一下。设计真是个头疼活，架构需要好好研究了。

@@ -1,9 +1,14 @@
+encoding: utf-8
+
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
+markdown: rdiscount
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -12,10 +17,22 @@ title : lofei's blog
 tagline: Site Tagline
 author :
   name : lofei
-  email : info@lofei.info
+  email : lofei@lofei.info
+  url : http://lofei.info 
   github : lofei117
   twitter : lofei117
+  #notice that the facebook url is not like https://www.facebook.com/#username#
+  #e.g. https://www.facebook.com/lofei117 is not the correct url 
+  #the author's correct url is : https://www.facebook.com/lin.lingfei
+  #so please check it.
+  facebook : lin.lingfei
+  weibo: amyasmile
+  # Since google plus does not support nickname url, so please set the full url here
+  googleplus : https://plus.google.com/u/0/117948489344923615869/
   feedburner : feedname
+  description: lofei's blog
+  aboutme: "hello, I'm lofei" 
+  avatarurl: https://0.gravatar.com/avatar/bb1638d85a52d1412088330c9f348683?size=200
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +42,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://lofei117.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,7 +99,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : lofeiinfo
     livefyre :
       site_id : 123
     intensedebate :
