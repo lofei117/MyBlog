@@ -10,6 +10,7 @@ tags: [android]
 ##Custom Theme Style   
 It's quite easy for developers to define their own theme by declaring styles in `styles.xml` file.   
 like:
+
 ```xml
 <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
 	<!--
@@ -20,6 +21,7 @@ like:
     -->
 </style>
 ```
+
 I've got a mistake that I copied the code from somewhere which the parent is not right. 
 Wrap you head that ``parent="android.Theme.Holo"`` is not right. If you want to use the pre-defined theme, make sure that the value of `parent` should start with `@android:style/`.
 
