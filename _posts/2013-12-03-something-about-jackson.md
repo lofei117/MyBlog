@@ -3,7 +3,7 @@ layout: post
 title: "Something about jaskson"
 description: ""
 category: ""
-tags: []
+tags: [jackson,java]
 ---
 {% include JB/setup %}
 
@@ -12,7 +12,7 @@ There are a lot of blogs telling you how to use `jackson` in your java project, 
 What I'm going to introduce here is that I've got an error when user jackson with `boolean` value.   
 
 When I was using jaskson to parse a Json string value in which there is a boolean value to a java POJO, I've got an error like:   
-```java  
+```java   
 org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "isBoy" (Class info.lofei.bean.User), not marked as ignorable   
 at [Source: java.io.StringReader@16e9494; line: 1, column: 46] (through reference chain: info.lofei.bean.User["isBoy"])
 	at org.codehaus.jackson.map.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:53)
@@ -29,7 +29,7 @@ at [Source: java.io.StringReader@16e9494; line: 1, column: 46] (through referenc
 
 The input Json string is:```String json = "{\"userid\":300,\"username\":\"lofei\",\"isBoy\":true}";```
 and below is the code of User class:   
-```java
+```java   
 public class User {   
    
 	private int 		userid;   
