@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "something about redcarpet"
-description: ""
+title: "jekyll-installation"
+description: "Introduce my experience of move my blog from wordpress to github-pages run through jekyll"
 category: "tech"
 tags: [redcarpet,jekyll]
 ---
@@ -89,7 +89,7 @@ you're able to see the result in your browser with the url http://localhost:4000
 
 If you get some error like GBK(or other coding), or some other errors, same words **GIYF**.
 
-# TroubleHootings
+# Troubleshooting
 It's very awesome that you've got none errors when you finish these steps at first time, even the second, the third time you also may get troubles.
 Here I will write some mistake or errors that I've met.
 
