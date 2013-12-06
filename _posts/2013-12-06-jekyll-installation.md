@@ -7,26 +7,24 @@ tags: [redcarpet,jekyll]
 ---
 {% include JB/setup %}
 
-#Forhead
+#Forword
 
 Well, I'm just moving my blog from wordpress to github these days. Jekyll is recommended as the static page generator which is also github-pages' generator.
 My home page was cloned from [Jekyll-Bootstrap](https://github.com/plusjade/jekyll-bootstrap/), to be honest, it's a well-designed template to build jekyll site.
 
 #Installation
-*My operation system:
+* My operation system:
 Microsoft Windows 7, 32bit.
 
 ## Install Ruby
 Well, I really like Linux or Mac(I still do not have enough money to buy one.) which support commad-line installation.
 To install ruby you should download two file from [Click here](http://rubyinstaller.org/downloads).
--Ruby 
--Ruby development kit.
-Get more information on the site, make sure that you have download the right ruby dev-kit for you ruby.
-*What I wanna tell you* is that *at first time* I downloaded **Ruby 2.0.0-p353** and **DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe**, but when I try to install jekyll with the command 
 
-```ruby
-gem install jekyll
-```
+- Ruby 
+- Ruby development kit.
+
+Get more information on the site, make sure that you have download the right ruby dev-kit for you ruby.
+*What I wanna tell you* is that *at first time* I downloaded **Ruby 2.0.0-p353** and **DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe**, but when I try to install jekyll with the command ```gem install jekyll```
 I cannot download it, something seems error but I don't what it is. (Using bundle to install may work *sometimes*.)
 As you see above I italic *at first time* and *sometimes*, the reason is that I've install and uninstall it for several times since ruby 2.0 does not work well on my tablet.
 So the result is that I finally choose **Ruby 1.9.3** and **DevKit-tdm**.
@@ -34,7 +32,7 @@ So the result is that I finally choose **Ruby 1.9.3** and **DevKit-tdm**.
 ## Install jekyll
 You may easily use 
 
-```ruby
+```
 gem install github-pages
 ```
 
@@ -42,7 +40,7 @@ which would install jekyll at the same time, see [Github-Pages](https://help.git
 
 Normally, just use 
 
-```ruby
+```
 gem install jekyll
 ```
 
@@ -53,7 +51,7 @@ BTW. if you wanna use **bundle** to install them, GIYF, you'll get lots of infor
 ## Install redcarpet
 If you install jekyll with github-pages, redcarpet is also installed. Otherwise, use
 
-```ruby
+```
 gem install redcarpet -v "2.3.0"
 ```
 
@@ -65,14 +63,14 @@ gem install redcarpet -v "2.3.0"
 Till now, the introduction of installation was finished. For more information about installation and website initlization, just google it and read the github-pages documents and [Quick Start](http://www.jekyllbootstrap.com/usage/jekyll-quick-start.html). if you are using jekyll-bootstrap like me.
 You can just use
 
-```ruby
+```
 jekyll new testBlog
 ```
 
 to generate a empty website.
 Then, ``cd testBlog`` into the website root directory and type
 
-```ruby
+```
 jekyll serve
 ```
 
@@ -185,20 +183,20 @@ Below is the tips to use **fenced_code_blocks** correctly:
 2: Wrap your head that to input an empty line before the start of \`\`\`, like:
 
 ```
-some words
+    some words
 
-''' java	
-int a=5;
-'''
+    ``` java	
+      int a=5;
+    ```
 ```
 
 rather than
 
 ```
-somewords
-'''java
-int a=5;
-'''
+    somewords
+    ```java
+    int a=5;
+    ```
 ```
 
 **I cannot type \`\`\` directly in the code block cause redcarpet would convert it, so I use** `'''` **instead, if you are using it please use the right backticks.**

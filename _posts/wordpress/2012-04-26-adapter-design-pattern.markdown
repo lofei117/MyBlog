@@ -50,7 +50,7 @@ Adapter模式的关键特征：（摘自《设计模式解析》）
 
 实现：将原有类包含在另一个类中。让包含类与需要的接口匹配，调用被包容类的方法。
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/adaptee.png)](http://blog.lofei.info/wp-content/uploads/2012/04/adaptee.png)
+[![](/assets/images/2012/04/adaptee.png)](/assets/images/2012/04/adaptee.png)
 
 
 

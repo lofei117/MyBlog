@@ -34,7 +34,7 @@ tags:
 
 上个图吧。
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/05/abstract-factory11.jpg)](http://blog.lofei.info/wp-content/uploads/2012/05/abstract-factory11.jpg)
+[![](/assets/images/2012/05/abstract-factory11.jpg)](/assets/images/2012/05/abstract-factory11.jpg)
 
 
 
@@ -80,7 +80,7 @@ AbstractFactory模式的通用结构图：
 
 
 
-[caption id="attachment_574" align="aligncenter" width="596"][![abstract-factory](http://blog.lofei.info/wp-content/uploads/2012/05/abstract-factory.png)](http://blog.lofei.info/wp-content/uploads/2012/05/abstract-factory.png) abstract-factory[/caption]
+[caption id="attachment_574" align="aligncenter" width="596"][![abstract-factory](/assets/images/2012/05/abstract-factory.png)](/assets/images/2012/05/abstract-factory.png) abstract-factory[/caption]
 
 路漫漫啊~~~加油~~~
 

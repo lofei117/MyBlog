@@ -19,9 +19,9 @@ tags:
 
 今天的3D建模学的是多边形建模中的边层级。
 
-[caption id="attachment_421" align="aligncenter" width="640"][![openbox](http://blog.lofei.info/wp-content/uploads/2013/01/openbox.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/openbox.jpg) 打开的箱子模型[/caption]
+[caption id="attachment_421" align="aligncenter" width="640"][![openbox](/assets/images/2013/01/openbox.jpg)](/assets/images/2013/01/openbox.jpg) 打开的箱子模型[/caption]
 
-[caption id="attachment_422" align="aligncenter" width="640"][![魔方](http://blog.lofei.info/wp-content/uploads/2013/01/cube.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/cube.jpg) 魔方模型[/caption]
+[caption id="attachment_422" align="aligncenter" width="640"][![魔方](/assets/images/2013/01/cube.jpg)](/assets/images/2013/01/cube.jpg) 魔方模型[/caption]
 
 
 

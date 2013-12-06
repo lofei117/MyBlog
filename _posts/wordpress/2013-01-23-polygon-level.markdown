@@ -19,7 +19,7 @@ tags:
 
 上个画框的模型图。
 
-[caption id="attachment_432" align="aligncenter" width="640"][![画框模型](http://blog.lofei.info/wp-content/uploads/2013/01/photoframe.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/photoframe.jpg) 画框的模型图[/caption]
+[caption id="attachment_432" align="aligncenter" width="640"][![画框模型](/assets/images/2013/01/photoframe.jpg)](/assets/images/2013/01/photoframe.jpg) 画框的模型图[/caption]
 
 
 ### 用到的工具：

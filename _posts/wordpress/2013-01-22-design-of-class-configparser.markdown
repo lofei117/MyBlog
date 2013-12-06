@@ -23,7 +23,7 @@ ConfigParser类主要是一些针对initialization file的读写操作，其实�
 
 以后再慢慢改了， 完整的做下来以后才知道哪些地方不足， 才能完整的理解一个软件的具体开发设计。（虽然还是挺水的。）
 
-[swf:http://blog.lofei.info/wp-content/uploads/2013/01/ConfigParser类功能.swf 600 500]
+[swf:/assets/swfs/ConfigParser-class-design.swf 600 500]
 
 其实这个图前几天就画完了，然后一直琢磨着把类实现以后写一篇完整的，现在看来还是有好多东西没弄好。
 

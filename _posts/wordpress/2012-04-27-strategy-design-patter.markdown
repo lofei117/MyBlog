@@ -66,7 +66,7 @@ Strategy模式的关键特征：（《设计模式解析》）
 
 注意，在原型Strategy模式中， 选择所用具体实现的职责由Client对象承担， 并转给Strategy模式的Context对象。
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/1111.png)](http://blog.lofei.info/wp-content/uploads/2012/04/Strategy.png)
+[![](/assets/images/2012/04/1111.png)](/assets/images/2012/04/Strategy.png)
 
 
 

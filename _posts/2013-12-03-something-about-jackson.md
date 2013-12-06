@@ -2,7 +2,7 @@
 layout: post
 title: "Something about jaskson"
 description: ""
-category: ""
+category: "java"
 tags: [jackson,java]
 ---
 {% include JB/setup %}
@@ -30,6 +30,7 @@ at [Source: java.io.StringReader@16e9494; line: 1, column: 46] (through referenc
 
 The input Json string is:```String json = "{\"userid\":300,\"username\":\"lofei\",\"isBoy\":true}";```
 and below is the code of User class:  
+
 ```java
 public class User {   
    

@@ -19,7 +19,7 @@ tags:
 
 但是作为一项爱好和技能， 学习一些基础建模也是挺好的， 至少以后自己做游戏的时候可以建一些草模出来。
 
-[caption id="attachment_449" align="aligncenter" width="640"][![油壶](http://blog.lofei.info/wp-content/uploads/2013/01/oilcan.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/oilcan.jpg) 油壶[/caption]
+[caption id="attachment_449" align="aligncenter" width="640"][![油壶](/assets/images/2013/01/oilcan.jpg)](/assets/images/2013/01/oilcan.jpg) 油壶[/caption]
 
 
 ### 涉及到的工具：

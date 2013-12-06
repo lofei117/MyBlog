@@ -54,5 +54,5 @@ MyRainmeter是一款windows下的可执行程序， 研发的目的在于方便R
 
 
 哎， 今天忙活了一天光顾着折腾主题了， 早上去草草画了个草图。才发现逻辑还是没摸清， 软件工程貌似的确是个头疼的东西。
-[swf:http://blog.lofei.info/wp-content/uploads/2013/01/MyRainmeter设计草图.swf 600 500]
+[swf:/assets/swfs/MyRainmeter-design.swf 600 500]
 

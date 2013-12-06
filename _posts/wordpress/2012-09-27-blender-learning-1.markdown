@@ -49,4 +49,4 @@ Shift+鼠标中键（按住并移动鼠标）： 平移世界
 
 今天学习的大概就这些了。嗯，上截图一张（其实今天啥也没干）。
 
-[![blender工作界面截图](http://blog.lofei.info/wp-content/uploads/2012/09/first.jpg)](http://blog.lofei.info/wp-content/uploads/2012/09/first.jpg)
+[![blender工作界面截图](/assets/images/2012/09/first.jpg)](/assets/images/2012/09/first.jpg)

@@ -20,13 +20,18 @@ author :
   email : lofei@lofei.info
   url : http://lofei.info 
   github : lofei117
-  twitter : lofei117
+  
+  #twitter : lofei117
+  
   #notice that the facebook url is not like https://www.facebook.com/#username#
   #e.g. https://www.facebook.com/lofei117 is not the correct url 
   #the author's correct url is : https://www.facebook.com/lin.lingfei
   #so please check it.
-  facebook : lin.lingfei
+  
+  #facebook : lin.lingfei
+
   weibo: amyasmile
+  
   # Since google plus does not support nickname url, so please set the full url here
   googleplus : https://plus.google.com/u/0/117948489344923615869/
   feedburner : feedname

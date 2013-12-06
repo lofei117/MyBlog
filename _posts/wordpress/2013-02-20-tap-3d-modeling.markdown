@@ -19,6 +19,6 @@ tags:
 
 刚回到家的时候无从下手， 不知怎么的就忘光光了。
 
-[caption id="attachment_478" align="aligncenter" width="640"][![水龙头模型](http://blog.lofei.info/wp-content/uploads/2013/02/tap.jpg)](http://blog.lofei.info/wp-content/uploads/2013/02/tap.jpg) 水龙头模型[/caption]
+[caption id="attachment_478" align="aligncenter" width="640"][![水龙头模型](/assets/images/2013/02/tap.jpg)](/assets/images/2013/02/tap.jpg) 水龙头模型[/caption]
 
 学习的事片刻不能放松， 自己的未来需要自己去掌控。

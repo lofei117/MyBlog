@@ -15,7 +15,7 @@ tags:
 
 多边形建模的东西算是学的差不多了， 接下去要学习的是石墨建模， 做个综合实例来练练手吧。
 
-[caption id="attachment_459" align="aligncenter" width="640"][![电视机](http://blog.lofei.info/wp-content/uploads/2013/01/television.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/television.jpg) 电视机[/caption]
+[caption id="attachment_459" align="aligncenter" width="640"][![电视机](/assets/images/2013/01/television.jpg)](/assets/images/2013/01/television.jpg) 电视机[/caption]
 
 好吧，这大概是史上最丑陋的电视机3d模型了。
 

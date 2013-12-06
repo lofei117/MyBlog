@@ -15,7 +15,7 @@ tags:
 
 在Edit Mode中Alt+R的结果就是：
 
-[![](http://s2.homezz.com/201301/4877/31417_o.png)](http://s2.homezz.com/201301/4877/31417_o.png)
+[![](/assets/images/2012/10/31417_o.png)](/assets/images/2012/10/31417_o.png)
 
 话说其实也还是蛮好看的。
 

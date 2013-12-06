@@ -17,7 +17,7 @@ tags:
 
 老样子，先上个图吧。
 
-[![star](http://blog.lofei.info/wp-content/uploads/2013/01/star.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/star.jpg)
+[![star](/assets/images/2013/01/star.jpg)](/assets/images/2013/01/star.jpg)
 
 
 

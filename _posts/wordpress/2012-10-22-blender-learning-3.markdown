@@ -13,8 +13,8 @@ tags:
 - blender
 ---
 
-[![](http://s1.homezz.com/201301/4877/31415_o.png)](http://s1.homezz.com/201301/4877/31415_o.png)
+[![](/assets/images/2012/10/31415_o.png)](/assets/images/2012/10/31415_o.png)
 
-[![](http://s0.homezz.com/201301/4877/31416_o.png)](http://s0.homezz.com/201301/4877/31416_o.png)
+[![](/assets/images/2012/10/31416_o.png)](/assets/images/2012/10/31416_o.png)
 
-[![](http://s1.homezz.com/201301/4877/31414_o.png)](http://s1.homezz.com/201301/4877/31414_o.png)
+[![](/assets/images/2012/10/31414_o.png)](/assets/images/2012/10/31414_o.png)

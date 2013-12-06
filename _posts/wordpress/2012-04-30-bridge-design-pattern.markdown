@@ -28,13 +28,13 @@ Bridge、桥梁（桥接）模式。
 
 抽象是不同事物之间概念上的联系方式， 也就是说是共性部分， 而解耦是让各种事物互相独立地形式， 或者至少明确地声明之间的关系。
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/24.png)](http://blog.lofei.info/wp-content/uploads/2012/04/Bridge.png)
+[![](/assets/images/2012/04/24.png)](/assets/images/2012/04/Bridge.png)
 
 看了这个图以后貌似有了点新的理解，不过可能还是不得其门而入。
 
 举个例子吧， 又带MM去“啃不起”吃汉堡，（-。-，真心啃不起啊， 而且个人也没觉得这里有多好吃的， 哈哈，不过幸好这不是真的，-。-， 那就意味着妹纸也没有哇）， 然后我们假设这些汉堡都是要加番茄酱的， 他们有各种名字各种口味的汉堡， 然后番茄酱也有从酸到甜各个等级， 然后客户往往会要求加某个等级的番茄酱，但是每个客户都不一样，然后就会有很多配搭，那怎么样才能快速的分类呢？ 如果每个汉堡都对应各个等级的番茄酱。 假如有3种口味的汉堡，3个等级的番茄酱， 那么就会出现如下的情况：
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/222.png)](http://blog.lofei.info/wp-content/uploads/2012/04/Hamburg-Ketchup.png)
+[![](/assets/images/2012/04/222.png)](/assets/images/2012/04/Hamburg-Ketchup.png)
 
 假设我又更多的汉堡和更多的番茄酱，那么这个阵容就很庞大了啊。
 
@@ -44,7 +44,7 @@ Bridge、桥梁（桥接）模式。
 
 根据Bridge模式的定义和概念图，应该是如下所示的：
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/Hanbug-2.png)](http://blog.lofei.info/wp-content/uploads/2012/04/Hanbug-ketchup2.png)
+[![](/assets/images/2012/04/Hanbug-2.png)](/assets/images/2012/04/Hanbug-ketchup2.png)
 
 根据《设计模式解析》的例子， 它是形状和绘图两种对象，然后把绘图对联作为形状对象的一个包含对象， 用聚集来解决的这个问题。 把聚集关系作为桥梁吧，我是这么理解的。
 
@@ -68,7 +68,7 @@ ok，来看一看Bridge模式的关键特征：
 
 下面是《设计模式解析》中给出的Bridge模式的一般结构图：
 
-[![](http://blog.lofei.info/wp-content/uploads/2012/04/Bridge2.png)](http://blog.lofei.info/wp-content/uploads/2012/04/Bridge2.png)
+[![](/assets/images/2012/04/Bridge2.png)](/assets/images/2012/04/Bridge2.png)
 
 最后说几个概念吧
 

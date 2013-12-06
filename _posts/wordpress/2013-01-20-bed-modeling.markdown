@@ -28,7 +28,7 @@ tags:
 
 先上图吧。
 
-[caption id="attachment_392" align="aligncenter" width="640"][![床模型](http://blog.lofei.info/wp-content/uploads/2013/01/bed.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/bed.jpg) 床模型[/caption]
+[caption id="attachment_392" align="aligncenter" width="640"][![床模型](/assets/images/2013/01/bed.jpg)](/assets/images/2013/01/bed.jpg) 床模型[/caption]
 
 3dmax的多边形建模相对来说较blender简单一点（blender都没学太深没学明白，哎）。
 

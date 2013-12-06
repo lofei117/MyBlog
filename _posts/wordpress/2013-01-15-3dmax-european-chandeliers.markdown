@@ -15,7 +15,7 @@ tags:
 
 花了两天终于用3dmax把欧式吊灯模型给建出来了。 好累。
 
-[![欧式吊灯](http://blog.lofei.info/wp-content/uploads/2013/01/111.jpg)](http://blog.lofei.info/wp-content/uploads/2013/01/111.jpg)
+[![欧式吊灯](/assets/images/2013/01/111.jpg)](/assets/images/2013/01/111.jpg)
 
 马马虎虎也就将就着看了。
 

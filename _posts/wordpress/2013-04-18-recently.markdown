@@ -13,13 +13,13 @@ tags:
 - MyRainmeter
 ---
 
-## MyRainmeter
+# MyRainmeter
 
 
 1：用GDI+重写了MyRainmeter的部分绘制代码。
 
 
-### #why GDI+
+## why GDI+
 
 
 怎么说呢，对于GDI的理解还只是在于表面，很多也仅仅限于会用（还是在查文档的前提下）， 不过不管怎样，慢慢的积累就是一种进步。
@@ -27,19 +27,19 @@ tags:
 GDI+在于图形绘制提供了很多GDI没有、或者说简化了GDI操作的函数封装。譬如对于32位位图PNG的绘制，透明图层在GDI里还得自己慢慢算，是一个很头疼的事。
 
 
-### #how to use GDI+
+## how to use GDI+
 
 
 为了使用GDI+，必须包含GDI+的头文件目录，以及调用GDI+lib库。
 
 
     
-    
+``` c++    
     // Using GDI+
     #include <gdiplus.h>
     #pragma comment(lib, "gdiplus.lib")
     using namespace Gdiplus;
-    
+```    
 
 
 
@@ -48,29 +48,29 @@ GDI+在于图形绘制提供了很多GDI没有、或者说简化了GDI操作的�
 
 
     
-    
+```c++    
     protected:
     	ULONG_PTR m_gdiplusToken;  
-    
+```    
 
 
 初始化
 
     
-    
+```c++    
     // Startup GDI+
-    	GdiplusStartupInput input;  
-    	GdiplusStartup(&m;_gdiplusToken, &input;, NULL); 
-    
+    GdiplusStartupInput input;  
+    GdiplusStartup(&m;_gdiplusToken, &input;, NULL); 
+```    
 
 
 销毁
 
     
-    
+```c++
     // Shutdown GDI+
-    	GdiplusShutdown(m_gdiplusToken);  
-    
+    GdiplusShutdown(m_gdiplusToken);  
+```    
 
 
 
@@ -78,67 +78,66 @@ GDI+在于图形绘制提供了很多GDI没有、或者说简化了GDI操作的�
 
 
 
-#### some samples：
+### some samples：
 
 
 使用指定颜色填充矩形：
 
     
-    
+```c++    
     Graphics graphics(pDC->m_hDC);	 // 初始化graphics变量，从gdi获取图形绘制入口
     Gdiplus::Rect solidRect(m_X, m_Y, m_W, m_H);
     Color solidColor = Color(GetAValue(color), GetRValue(color), GetGValue(color), GetBValue(color));
     SolidBrush solidBrush(solidColor);
-    		graphics.FillRectangle(&solidBrush;, solidRect);
-    
+    graphics.FillRectangle(&solidBrush;, solidRect);
+```    
 
 
 渐变色填充指定矩形：
 
     
-    
+```c++    
     Color solidColor2 = Color(GetAValue(color), GetRValue(color), GetGValue(color), GetBValue(color));
-    		Gdiplus::LinearGradientBrush linGrBrush(solidRect,  //  绘制区域
-    			solidColor,  //  第一种颜色
-    			solidColor2,  //  第二种颜色 
-    			(Gdiplus::REAL)m_GradientAngle);  //  渐变色的角度
+    Gdiplus::LinearGradientBrush linGrBrush(solidRect,  //  绘制区域
+    	solidColor,  //  第一种颜色
+    	solidColor2,  //  第二种颜色 
+    	(Gdiplus::REAL)m_GradientAngle);  //  渐变色的角度
     
-    		graphics.FillRectangle(&linGrBrush;, solidRect);
-    
+    graphics.FillRectangle(&linGrBrush;, solidRect);
+```    
 
 
 绘制灰度图片：
 
     
-    
-    	Gdiplus::Image* pImage = new Gdiplus::Image(m_ImageName);
-            // 通过矩阵实现颜色转化，使之变成灰度图
-            ImageAttributes imageAttributes;
-            ColorMatrix colorMatrix ={
-    		0.299f, 0.299f, 0.299f, 0, 0,
-    		0.588f, 0.588f, 0.588f, 0, 0,
-    		0.111f, 0.111f, 0.111f, 0, 0,
-    		0, 0, 0, 1, 0 ,
-    		0, 0, 0, 0, 1
-    	};
-    	imageAttributes.SetColorMatrix(
-    		&colorMatrix;, 
-    		ColorMatrixFlagsDefault,
-    		ColorAdjustTypeBitmap);		
-    	graphics.DrawImage(
-    		pImage, 
-    		drawRect, 
-    		0, 0, 
-    		pImage->GetWidth(), 
-    		pImage->GetHeight(), 
-    		UnitPixel, 
-    		&imageAttributes;
-    	);
-            //graphics.DrawImage(pImage, drawRect);	// 绘制图片，如果只要绘制普通的图片只要这句就够了
-    
-            // Release HDC
-    	graphics.ReleaseHDC(pDC->m_hDC);  // 释放设备上下文       
-    
+```c++    
+    Gdiplus::Image* pImage = new Gdiplus::Image(m_ImageName);
+           // 通过矩阵实现颜色转化，使之变成灰度图
+           ImageAttributes imageAttributes;
+           ColorMatrix colorMatrix ={
+    	0.299f, 0.299f, 0.299f, 0, 0,
+    	0.588f, 0.588f, 0.588f, 0, 0,
+    	0.111f, 0.111f, 0.111f, 0, 0,
+    	0, 0, 0, 1, 0 ,
+    	0, 0, 0, 0, 1
+    };
+    imageAttributes.SetColorMatrix(
+    	&colorMatrix;, 
+    	ColorMatrixFlagsDefault,
+    	ColorAdjustTypeBitmap);		
+    graphics.DrawImage(
+    	pImage, 
+    	drawRect, 
+    	0, 0, 
+    	pImage->GetWidth(), 
+    	pImage->GetHeight(), 
+    	UnitPixel, 
+    	&imageAttributes;
+    );
+           //graphics.DrawImage(pImage, drawRect);	// 绘制图片，如果只要绘制普通的图片只要这句就够了
+           // Release HDC
+    graphics.ReleaseHDC(pDC->m_hDC);  // 释放设备上下文       
+```    
 
 
 
