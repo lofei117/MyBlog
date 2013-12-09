@@ -155,23 +155,23 @@ end
 which can mostly support the function but still has some bugs.
 Here are some figures:
 
-The expect result with xml code:
+***The expect result with xml code:***
 
 ![correct_result1][correct_result1]
 
-The actual result:
+***The actual result:***
 
 ![actual_result1][actual_result1]
 
-The expect result with java code:
+***The expect result with java code:***
 
 ![correct_result2][correct_result2]
 
-The actual result:
+***The actual result:***
 
 ![actual_result2][actual_result2]
 
-The actual result with plugin hooked:
+***The actual result with plugin hooked:***
 
 ![actual_result2_plugin_hooked][actual_result2_plugin_hooked]
 
@@ -198,8 +198,6 @@ rather than
     int a=5;
     ```
 ```
-
-**I cannot type \`\`\` directly in the code block cause redcarpet would convert it, so I use** `'''` **instead, if you are using it please use the right backticks.**
 
 3: Remember to set the `markdown` as `redcarpet` in `_config.yml`
 
