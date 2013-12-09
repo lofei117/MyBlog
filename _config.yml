@@ -36,7 +36,7 @@ author :
   googleplus : https://plus.google.com/u/0/117948489344923615869/
   feedburner : feedname
   description: lofei's blog
-  aboutme: "hello, I'm lofei, a normal guy who likes cooking, travelling by bike, and also reading books. If you like to make friend with me, contact me with below contacts." 
+  aboutme: "Hello, I'm lofei, a normal guy who likes cooking, travelling by bike, and also reading books. If you like to make friend with me, contact me with below contacts." 
   avatarurl: https://0.gravatar.com/avatar/bb1638d85a52d1412088330c9f348683?size=200
 
 # The production_url is only used when full-domain names are needed
@@ -47,7 +47,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.lofei.info
+production_url : http://blog.lofei.info/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -122,7 +122,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-46294926-1'
     getclicky :
       site_id : 
     mixpanel :
