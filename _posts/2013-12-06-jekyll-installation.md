@@ -7,7 +7,7 @@ tags: [redcarpet,jekyll]
 ---
 {% include JB/setup %}
 
-#Forword
+#Foreword
 
 Well, I'm just moving my blog from wordpress to github these days. Jekyll is recommended as the static page generator which is also github-pages' generator.
 My home page was cloned from [Jekyll-Bootstrap](https://github.com/plusjade/jekyll-bootstrap/), to be honest, it's a well-designed template to build jekyll site.
