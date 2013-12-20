@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll-installation"
 description: "Introduce my experience of move my blog from wordpress to github-pages run through jekyll"
-category: "tech"
+category: "blog"
 tags: [redcarpet,jekyll]
 ---
 {% include JB/setup %}

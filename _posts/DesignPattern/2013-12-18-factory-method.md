@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Factory Method"
-description: ""
+description: "Factory Method pattern"
 category: "Design Pattern"
 tags: ["Design Pattern", "Factory Method"]
 ---
@@ -118,6 +118,7 @@ These work will also be done in [Abstract Factory][abstract-factory]. But Factor
 
 * [wikipedia.org](http://en.wikipedia.org/wiki/Factory_method_pattern "wikipedia.org")
 * [apwebco.com](http://www.apwebco.com/gofpatterns/creational/FactoryMethod.html "apwebco.com")
+* [abstract-factory][abstract-factory]
 
 [uml-diagram]: /assets/images/designpattern/factory-method.png "Factory Method"
-[abstract-factory]: /2013/12/18/abstract-factory.html "Abstract Method"
+[abstract-factory]: /2013/12/20/abstract-factory/ "Abstract Factory"
