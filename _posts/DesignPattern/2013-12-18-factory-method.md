@@ -109,8 +109,8 @@ Factory Method is similar to Abstract Method, and actually when we want to use t
 
 Review the [Definition](#definition), there're two points:
 
-* The subclass(i.e. SingleSenderFactory) decides which class to be instantiated. 
-* Defer the instantiation to subclass(i.e. SingleSenderFactory).
+* The subclass(e.g. SingleSenderFactory) decides which class to be instantiated. 
+* Defer the instantiation to subclass(e.g. SingleSenderFactory).
 
 These work will also be done in [Abstract Factory][abstract-factory]. But Factory Method is simpler.
 

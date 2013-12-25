@@ -11,7 +11,7 @@ tags: ["Design Pattern", "Abstract Factory"]
 Well, before we start to talk about the intent of Abstract Factory, think about that:
 
 * 1. I want to send some message to my customers, but I don't know (or I don't care) what kind of ConcreteSender to use.
-* 2. If I have a new kind of ConcreteSender (i.e. WechatSender), I can add it to my program without modify the exists Factory class.
+* 2. If I have a new kind of ConcreteSender (e.g. WechatSender), I can add it to my program without modify the exists Factory class.
 * 3. ....
 
 If we want to use [Factory Method][factory-method], we'll find that we should do the steps:
