@@ -164,7 +164,7 @@ public Object deepClone() {
 
 To use binary read-write serialization, you should implement `Serializable` interface in class `Product` (e.g. Human).
 
-~~For more information about `clone` method, please see another blog [Dive into clone][dive-into-clone]~~(Not finished yet).
+For more information about `clone` method, please see another blog [Dive into clone][dive-into-clone].
 
 # Usage
 
