@@ -9,7 +9,7 @@ tags: ["Design Pattern", "Prototype"]
 
 
 # Introduction
-Sometimes we would want to clone a object rather than instantiate an new instance, we would use Prototype pattern.
+Sometimes we would want to clone a object rather than instantiate a new instance, we would use Prototype pattern.
 Prototype is used to:
 
 * avoid subclasses of an object creator in the client application, like the [Abstract Factory pattern][abstract-factory] does.
@@ -179,4 +179,4 @@ To use binary read-write serialization, you should implement `Serializable` inte
 
 
 [abstract-factory]: /2013/12/20/abstract-factory/ "Abstract Factory"
-[dive-into-clone]: /2013/12/21/dive-into-clone/ "Dive into clone"
+[dive-into-clone]: /2013/12/26/dive-into-clone/ "Dive into clone"
