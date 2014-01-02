@@ -11,7 +11,8 @@ tags: ["Project"]
 
 * Name : Advanced Person and Group Appraising System of HIT (Harbin Institute of Technology)
 * Time : 2011.04 - 2011.06
-* Team Mate : 
+* Role : Developer
+* Teammate: Aibao Li, Qizhen Zhang.
 
 This is the first project I had been involved in. It's a dynamic websites developed with Jsp and original Servlet, and use MySQL as database.
 
@@ -42,10 +43,10 @@ As a normal website, most of the pages are built with native HTML and Javascript
 
 
 
-[index.png]: /assets/images/Projects/Pingyou/index.png "index page"
-[loginpage.png]: /assets/images/Projects/Pingyou/loginpage.png "login page"
-[studentForm.png]: /assets/images/Projects/Pingyou/studentForm.png "student form"
-[studentIndex.png]: /assets/images/Projects/Pingyou/studentIndex.png "student index page"
-[superManager.png]: /assets/images/Projects/Pingyou/superManager.png "superManager index page"
+[index.png]: /assets/images/Project/Pingyou/index.png "index page"
+[loginpage.png]: /assets/images/Project/Pingyou/loginpage.png "login page"
+[studentForm.png]: /assets/images/Project/Pingyou/studentForm.png "student form"
+[studentIndex.png]: /assets/images/Project/Pingyou/studentIndex.png "student index page"
+[superManager.png]: /assets/images/Project/Pingyou/superManager.png "superManager index page"
 
 [Ext-Js]: http://www.sencha.com/products/extjs/ "Ext-Js"

@@ -23,14 +23,13 @@ description: "Projects"
             </div>
             <h1 class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
             <div class="markdown-body">
-                {{ post.content }}
-            </div>
-            {% if post.description %}
-            <div class="entry-content hide">
-                <p>{{ post.description }}</p>
-                <a href="{{post.url}}" class="more-link">Continue Reading &rarr;</a>
-            </div>
-            {% endif %}
+                {% if post.content contains "<!-- more -->" %}               
+                    {{ post.content | split:"<!-- more -->" | first % }}              
+                {% else %}                
+                    {{ post.content | truncatewords:100 }}               
+                {% endif %}     
+                <a href="{{post.url}}" class="more-link">Continue Reading &rarr;</a>       
+            </div>    
         </article>
         {% endif %}
         {% endfor %}

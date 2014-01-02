@@ -10,8 +10,9 @@
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <link rel="stylesheet" href="http://yandex.st/highlightjs/7.5/styles/default.min.css">
+      <link rel="stylesheet" href="{{ ASSET_PATH }}/css/vs.css">
       <script src="http://yandex.st/highlightjs/7.5/highlight.min.js"></script>
+      <script>//hljs.initHighlightingOnLoad();</script>
 
       <link href="{{ ASSET_PATH }}/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
       <link href="{{ ASSET_PATH }}/css/gfm.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -51,7 +52,8 @@
                         <ul class="main">
                             <li><a href="/">Home</a></li>
                             <li><a href="/archive.html">Archive</a></li>
-                            <li><a href="/categories.html">Category</a></li>
+                            <li><a href="/categories.html">Categories</a></li>
+                            <li><a href="/project/">Projects</a></li>
                         </ul>
 
                         <section class="aboutme">
@@ -97,7 +99,7 @@
                 </div>
             </div>
             <footer id="footer" class="inner">
-                Copyright &copy; 2013 <a href="{{ site.author.url }}">{{ site.author.name }}</a>
+                Copyright &copy; 2014 <a href="{{ site.author.url }}">{{ site.author.name }}</a>
                 Powered by <a href="http://jekyllbootstrap.com">Jekyll</a>
                 Design from <a href="http://shashankmehta.in/archive/2012/greyshade.html">Greyshade</a>
             </footer>

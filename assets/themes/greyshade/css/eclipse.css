@@ -1,0 +1,36 @@
+/**
+ * stylesheet for highlight 
+ * designed from eclipse
+ * author : lofei;
+ * time : 2014.01.03;
+ */
+
+
+.highlight .java {
+    font-family: "Courier New";
+    font-size: 10px;
+}
+
+.highlight .java .kd {
+    color: #ab0055;    
+}
+
+.highlight .java .nc {
+    color: #000000;    
+}
+
+.highlight .java .n {
+    color: #000000;    
+}
+
+.highlight .java .nf {
+    color: #000000;    
+}
+
+.highlight .java .n {
+    color: #000000;    
+}
+
+.highlight .java .na {
+    color: #0000c0;    
+}

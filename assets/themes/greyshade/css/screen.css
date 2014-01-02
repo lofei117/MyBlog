@@ -556,27 +556,33 @@ a {
 #pagenavi a:hover {
 	text-decoration:underline
 }
+#pagenavi .disabled,#pagenavi .disabled:hover{
+	background-color:transparent;
+	color:#bfbfbf;
+}
 #pagenavi .prev,#pagenavi .next {
 	position:absolute
 }
 #pagenavi .prev {
-	padding-left:30px;
+	padding-left:20px;
 	left:0
 }
 #pagenavi .prev:before {
 	content:"\f060";
 	font:1.3em FontAwesome;
 	position:absolute;
+	top:3px;
 	left:0
 }
 #pagenavi .next {
-	padding-right:30px;
+	padding-right:20px;
 	right:0
 }
 #pagenavi .next:before {
 	content:"\f061";
 	font:1.3em FontAwesome;
 	position:absolute;
+	top:3px;
 	right:0
 }
 #pagenavi .center {

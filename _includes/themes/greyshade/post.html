@@ -16,9 +16,18 @@
     </div>
 </article>
 
-<nav id="pagenavi">
-    <a href="{{ BASE_PATH }}{{ page.next.url }}" class="next">Next</a>
-    <div class="center"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Blog Archives</a></div>
+<nav id="pagenavi">    
+      {% if page.previous %}       
+         <a href="{{ BASE_PATH }}{{ page.previous.url }}" class="prev">Previous</a>
+      {% else %}
+        <a class="prev disabled">Previous</a>
+      {% endif %}       
+      {% if page.next %}
+        <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next</a>
+      {% else %}
+        <a class="next disabled">Next</a>
+      {% endif %}
+       <div class="center"><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Blog Archives</a></div>
 </nav>
 
 {% include JB/comments %}
