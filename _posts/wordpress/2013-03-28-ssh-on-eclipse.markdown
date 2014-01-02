@@ -7,11 +7,11 @@ slug: ssh-on-eclipse
 title: eclipse中ssh搭建
 wordpress_id: 508
 categories:
-- java
+- Java
 - 网站设计
 tags:
 - hibernate
-- java
+- Java
 - spring
 - ssh
 - struts

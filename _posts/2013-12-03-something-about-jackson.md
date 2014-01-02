@@ -2,8 +2,8 @@
 layout: post
 title: "Something about jaskson"
 description: ""
-category: "java"
-tags: [jackson,java]
+category: "Java"
+tags: [jackson, Java]
 ---
 {% include JB/setup %}
 
