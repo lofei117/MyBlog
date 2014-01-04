@@ -266,7 +266,7 @@ true
 true
 false
 ```
-**You may ask why the name `Tom` was not changed, well, I would talk about it in my new post ~~[Dive into String][dive-into-string](Not finished yet)~~**
+**You may ask why the name `Tom` was not changed, well, I would talk about it in my new post [Dive into String][dive-into-string]**
 
 This is because that ***shallow copy*** copies the object fields as references, `car` in `p1` has the same hashcode as `car` in `p2`.
 
@@ -350,4 +350,4 @@ Well, I had tried my best to understand `clone` in java, but I think there are s
 
 [wikipedia]: http://en.wikipedia.org/wiki/Clone_(Java_method) "wikipedia.org"
 [prototype]: /2013/12/25/prototype/ "Prototype pattern"
-[dive-into-string]: # "Dive into String"
+[dive-into-string]: /2014/01/04/dive-into-string/ "Dive into String"
