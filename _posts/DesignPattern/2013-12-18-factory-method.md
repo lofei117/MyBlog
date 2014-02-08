@@ -3,7 +3,7 @@ layout: post
 title: "Factory Method"
 description: "Factory Method pattern"
 category: "Design Pattern"
-tags: ["Design Pattern", "Factory Method"]
+tags: ["Design Pattern", "Creational Pattern"]
 ---
 {% include JB/setup %}
 
@@ -15,7 +15,7 @@ The Factory Method is a pattern intented to help assign responsibility for creat
 The Factory Method may be used when:
 
 * The creation of an object makes reuse impossible without significant duplication of code.
-* The creation of an object requires access of imformation or resources that should not be contained within the composing class.
+* The creation of an object requires access of information or resources that should not be contained within the composing class.
 * The lifetime management of the generated objects must be centralized to ensure the consistent behavior within the application.
 
 Factory Methods are common in **toolkits** and **frameworks**, where library code needs to create objects of types that maybe subclassed by applications using the framework.

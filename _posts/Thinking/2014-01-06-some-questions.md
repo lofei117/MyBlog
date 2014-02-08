@@ -44,6 +44,7 @@ If you have 21 coins, including a heavier one, by using a balance, how many time
 
 ## Answer
 3 times is enough. 
+
 * 1. Divide the coins to three groups 7-7-7
 * 2. Choose two groups and put them on the balance, as a result you will get which group is heavier. (If they are balanced, the third group not on the balance is heavier)
 * 3. Divide the 7 coins to three groups again by 2-2-3
@@ -71,3 +72,22 @@ This question is a little complex, the problem is that we don't know whether it'
 
 Well, it's a little complex, and I've tried to describe clearer. Maybe I should divide the steps to more. Here is a web page of the 12 coin question, a 12 ball game, you can play it several times, I'm sure you will comprehense it.
 [12-ball-quesion](http://fun.lofei.info/12ball/ "12-ball-game")
+
+## Question
+If there are 10 coins for two people to pick from them, for each time, they can only pick 1 coin, or 2 coins, or 4 coins. The one who had picked the last coin would lose the game. Could you find a way to win the game, no matter what your rival does?
+
+## Answer
+To ensure you win the game, after you picked the coins, you should leave at least one coin for your rival to pick. So let's just enumerate the possible situations.
+
+* If you left only 1 coin, your rival has to pick the last one, you **win**, your rival lose.
+* If you left 2 coins, your rival has a chance to pick 1 coin from them, then you will **lose**.
+* If you left 3 coins, if your rival pick 2 coins from them, there would be only 1 coin left, you **lose**.
+* If you left 4 coins, no matter how many coins your rival picks, you still have a chance to change number of left-coins to 1 coin, you would **win** unless you leave more than 1 coin.
+* ...
+
+Enumerate more situations, you can easily draw a conclusion that, after you had picked the coins, if the number of left coins is `1+3k(k=0,1,2,3,...)`, no matter how many coins your rival picks, it's quite simple for you to adjust the left-coins number to `1+3k(k=0,1,2,3,...)` till there is only 1 coin left(`k=0`).
+
+Here we have 10 coins, exactly make the equation true when `k=3`. So, to ensure you win the game, you should let you rival pick the coins first, if he picks 4 coins, you pick 2 to leave 4 coins, otherwise pick the appropirate coin(s) to leave 7 coins.
+
+## Question
+If there are **n** coins, 

@@ -3,7 +3,7 @@ layout: post
 title: "Composite"
 description: "Composite pattern"
 category: "Design Pattern"
-tags: ["Design Pattern", "Composite"]
+tags: ["Design Pattern", "Structural Pattern"]
 ---
 {% include JB/setup %}
 

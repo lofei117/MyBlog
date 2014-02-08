@@ -11,7 +11,7 @@ tags: ["Java", "String"]
 
 String is a final class inheritanced from `java.lang.Object`, it represents for character strings. All string literals we see in Java, such as "abc", are implemented as instances of this class.
 
-According to the document, Strings are defined as counstants, that means the value of them cannot be changed after they are created. If you want mutable strings, you should use `StringBuilder`(or `StringBuffer`).
+According to the document, Strings are defined as constants, that means the value of them cannot be changed after they are created. If you want mutable strings, you should use `StringBuilder`(or `StringBuffer`).
 
 As a result that String objects are immutable, the can be shared. For instance:
 
@@ -60,7 +60,7 @@ or:
 String str2 = new String("abc");
 ```
 
-to create String object. The two ways above are different. In the former one, characters are stored in **stack memory** when the latter are stored in **heap memory**. Enventually, if we use `str1==str2` to compare them, it would return `false` cause java compares objects use their address of `==`.
+to create String object. The two ways above are different. In the former one, characters are stored in **stack memory** when the latter are stored in **heap memory**. Enventually, if we use `str1==str2` to compare them, it would return `false` cause java compares objects use their address for operation: `==`.
 
 In the former one, Java would create a reference object of String class, and then searching the stack whether there is an address storing value "abc", if yes, let the reference `str1` point to it, otherwise, create a new String type object with value "abc", and let `str1` point to it. 
 
@@ -174,7 +174,7 @@ Here is the code:
 When the length of the argument `str` is 0 (means it's an empty String), the original String will return, otherwise, a new String object would be created. As a result, it would take more time and cost more memory to concatenate the strings.
 (Remind yourself that String is immutable object.)
 
-`StringBuilder`(or `StringBuffer`) is recommended to use to concatenate strings, cause they can change the length through certain method calls. `StringBuilder` is added since version 1.5, regarded as a replacement of `StringBuffer`. The difference between is that `StringBuilder` is not thread-safe but `StringBuffer` is. So it's recommended that `StringBuilder` be used in preference to `StringBuffer` when possible as it will be faster. Otherwise, if in multi-thread environment, you should use `StringBuffer`.
+`StringBuilder`(or `StringBuffer`) is recommended to use to concatenate strings, cause they can change the length through certain method calls. `StringBuilder` is added since version 1.5, regarded as a replacement of `StringBuffer`. The difference between them is that `StringBuilder` is not thread-safe but `StringBuffer` is. So it's recommended that `StringBuilder` be used in preference to `StringBuffer` when possible as it will be faster. Otherwise, if in multi-thread environment, you should use `StringBuffer`.
 
 Here is an example to test the performance of these three classes.
 

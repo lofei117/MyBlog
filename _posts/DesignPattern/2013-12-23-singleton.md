@@ -3,7 +3,7 @@ layout: post
 title: "Singleton"
 description: "Singleton"
 category: "Design Pattern"
-tags: ["Design Pattern", "Singleton"]
+tags: ["Design Pattern", "Creational Pattern"]
 ---
 {% include JB/setup %}
 

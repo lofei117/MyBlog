@@ -3,7 +3,7 @@ layout: post
 title: "Abstract Factory"
 description: "Abstract Factory pattern"
 category: "Design Pattern"
-tags: ["Design Pattern", "Abstract Factory"]
+tags: ["Design Pattern", "Creational Pattern"]
 ---
 {% include JB/setup %}
 
@@ -62,7 +62,7 @@ Provides an interface for creating families of related or dependent objects with
 # Participants
 
 * Abstract Factory
-	* declares an interface for operations that creat abstract products objects.
+	* declares an interface for operations that create abstract products objects.
 * Concrete Factory
 	* implememts the operations to create concrete products objects.
 * Abstract Product
