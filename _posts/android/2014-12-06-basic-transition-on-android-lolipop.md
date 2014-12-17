@@ -17,7 +17,7 @@ Android介绍一共有三种Animation，分别是：
 
 >
 > * `Property Animation`
-> * `View Animation`
+> * `View Animation` 
 > * `Drawable Animation`
 >
 
