@@ -7,7 +7,7 @@ tags: [android]
 ---
 {% include JB/setup %}
 
-##Custom Theme Style   
+## Custom Theme Style   
 It's quite easy for developers to define their own theme by declaring styles in `styles.xml` file.   
 like:
 
@@ -22,7 +22,13 @@ like:
 </style>
 ```
 
-I've got a mistake that I copied the code from somewhere which the parent is not right. 
-Wrap you head that ``parent="android.Theme.Holo"`` is not right. If you want to use the pre-defined theme, make sure that the value of `parent` should start with `@android:style/`.
+~~~I've got a mistake that I copied the code from somewhere which the parent is not right. 
+Wrap you head that ``parent="android.Theme.Holo"`` is not right. If you want to use the pre-defined theme, make sure that the value of `parent` should start with `@android:style/`.~~~
+
+Well, it seems that I was wrong, but I forget why I got this mistake. 
+
+## startActivityForResult
+
+DO NOT SET THE `REQUEST_CODE` as a negative value.
 
 
