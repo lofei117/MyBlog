@@ -35,7 +35,7 @@ Scene Animation （场景动画）其实并不是一个严格意义上的动画�
   <source id="mp4" src="/assets/movies/BasicTransition.mp4" type="video/mp4" />
 </video>
 
-# Relization
+# Realization
 初看这个效果，按照以前的实现方式，移动的整个部分只有一个静态布局。在点击各个 RadioButton 之后启动一个 translate 的动画，改变三个按钮的坐标或大小达到新的布局效果。使用`Property Animation`实时改变或者使用`View Animation`绘制动画完成之后重设坐标。实现起来并不难，缺点是需要针对每一个元素单独设置动画，会有一系列坐标和形状计算等繁琐操作。
 
 视屏中从场景1切换到场景2时，三个元素发生了位置移动，我们会按照如下步骤来实现：
