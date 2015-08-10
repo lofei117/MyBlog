@@ -3,7 +3,7 @@ layout: post
 title: "Using Annotation"
 description: "Using Annotation in Android"
 category: "android"
-tags: ["Android"]
+tags: ["android"]
 ---
 {% include JB/setup %}
 
