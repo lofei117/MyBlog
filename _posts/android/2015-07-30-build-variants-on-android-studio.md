@@ -132,6 +132,8 @@ def initSourceSets(flavorName) {
 # 最后的最后
 关于gradle配置还有很多具体的细节，我也在不断的探索中，常总结常思考，才能常进步，加油~~~
 
+附上很简单的Demo地址： [FlavorDemo](https://github.com/lofei117/FlavorsDemo "Flavor Demo")
+
 
 
 
