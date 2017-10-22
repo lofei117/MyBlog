@@ -152,3 +152,5 @@ JB :
   
   posts_collate :
    provider : "custom"
+
+theme: jekyll-theme-cayman
