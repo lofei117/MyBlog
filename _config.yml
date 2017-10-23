@@ -5,11 +5,11 @@ encoding: utf-8
 permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-theme: jekyll-theme-architect
+highlighter: rouge
+#markdown: redcarpet
+markdown: kramdown
+#redcarpet:
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -153,5 +153,3 @@ JB :
   
   posts_collate :
    provider : "custom"
-
-theme: jekyll-theme-cayman

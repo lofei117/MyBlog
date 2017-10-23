@@ -24,7 +24,7 @@ description: "Projects"
             <h1 class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
             <div class="markdown-body">
                 {% if post.content contains "<!-- more -->" %}               
-                    {{ post.content | split:"<!-- more -->" | first % }}              
+                    {{  post.content | split:"<!-- more -->" | first  }}              
                 {% else %}                
                     {{ post.content | truncatewords:100 }}               
                 {% endif %}     
